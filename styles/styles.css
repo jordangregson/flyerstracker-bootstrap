@@ -1,0 +1,54 @@
+* {
+  font-family: 'Do Hyeon', sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #FF7F24;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.title {
+  font-size: 5vw;
+  color: white;
+  font-family: 'Audiowide', cursive;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.current-page {
+  background-color: #B47E58;
+  border-radius: 41px;
+  border: black 50px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #FF9A52;
+  border-radius: 41px;
+  border: black 50px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.team-name {
+  font-size: 40px;
+}
+
+.score {
+  font-size: 70px;
+}
+/*# sourceMappingURL=styles.css.map */

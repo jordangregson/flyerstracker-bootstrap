@@ -1,0 +1,61 @@
+@import 'colors';
+
+@mixin text-outline {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+* {
+font-family: 'Do Hyeon', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: $bright-orange;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    font-size: 5vw;
+    color: white;
+    font-family: 'Audiowide', cursive;
+
+    @include text-outline();
+}
+
+.current-page {
+    
+
+    background-color:$active-btn-orange;
+    border-radius: 41px;
+    border: black 50px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: $general-btn-orange;
+    border-radius: 41px;
+    border: black 50px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.team-name {
+    font-size: 40px;
+}
+
+.score {
+    font-size: 70px;
+}
